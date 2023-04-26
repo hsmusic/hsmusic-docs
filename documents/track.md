@@ -52,16 +52,16 @@ Referenced as `track:directory`.
 * `Has Cover Art`: disable to inherit from album cover art, or enable for one track with unique art amongst an album mostly without
   * If left unspecified, inherits from the album's `Has Track Art` field, which is true by default.
 
-* `Lyrics`: vocal lyrics
-  * Guideline: Include the whole lyrics verbosely, instead of shorthands like "[2x Chorus]".
-  * Guideline: Insofar as vocal lines can be discerned from instruments, try to transcribe everything, including non-"music" lines, quiet vocals, optionally echo effects, etc
-  * Guideline: Just ask Niklink for decision making on any lyrics, he's to credit for pretty much all lyrics present on the site ATM lol
-
 * `Commentary`: commentary from track artists and others related
-  * See (TODO) Commentary Format
+  * [Learn more about formatting the Commentary field.](../guidelines/common-fields.md#commentary-field)
+* `Lyrics`: lyrics for vocals
+  * [Learn more about formatting the Lyrics field.](../guidelines/common-fields.md#lyrics)
+  * [Read detailed guidelines on filling out lyrics for HSMusic.](../guidelines/lyrics.md)
 
-* `Additional Files`: bonus files associated with the track, currently unused
-  * See (TODO) Additional Files Format
+* `Additional Files`: bonus files associated with the track (there aren't any current uses of this field on the wiki)
+* `Sheet Music Files`: PDFs and other files containing sheet music for the track
+* `MIDI Project Files`: MIDI files for the track as well as DAW or tracker/sequencer project files
+  * These three fields share the same structured format - [learn more.](../guidelines/common-fields.md#additional-files-field)
 
 * `Originally Released As`: links track to its earliest release
   * Generally, this should be used instead of `Date Originally Released`, not alongside.

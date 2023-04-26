@@ -48,8 +48,8 @@ Referenced as `album:directory`; extra links: `[[album-commentary:directory]]`, 
 ### Content fields
 
 * `Commentary`: album-wide commentary from anyone involved in making it
-  * Learn more
-* `Additional Files`: bonus files associated with the album, e.g. album booklet, sheet music, credits files
+  * [Learn more about formatting the Commentary field.](../guidelines/common-fields.md#commentary-field)
+* `Additional Files`: bonus files associated with the album, e.g. album booklet, desktop wallpapers, credits files
 
 ### Configuration & layout
 

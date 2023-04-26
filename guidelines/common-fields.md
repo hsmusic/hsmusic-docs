@@ -145,6 +145,32 @@ Some examples of when you might manually set a directory:
 
 * In the most extreme cases, you may need to resort to violence. `『H☯MESTUCK VAP☯RWAVE 2016 RUH-RUH-RUH-ＲＥＭＩＸ』アンドレア・ヒューシー・グーグル翻訳` is not `h-omestuck-vap-rwave-2016-ruh-ruh-ruh` but `vaporwave-2016`, and `ＳジＢャＵンＲグＢル` is not an empty directory but `vaporwave-2016-track5`.
 
+### `Lyrics` field
+
+Lyrics are multiline strings, and they support `[[track:sburban-jungle]]`-style links just like the `Commentary` field. [Read more about formatting the Commentary field.](#commentary-field) (Just about all the same formatting applies here!)
+
+The only formatting difference is with how line breaks and empty lines work. Write them the same way most lyrics sites do: an empty line represents the space between two verses, and lines which are "together" will be displayed in the same HTML paragraph, with line breaks preserved. Here's how a `Lyrics` field might look:
+
+```
+Lyrics: |-
+    We're no strangers to love
+    You know the rules and so do I
+    A full commitment's what I'm thinking of
+    You wouldn't get this from any other guy
+
+    I just wanna tell you how I'm feeling
+    Gotta make you understand
+
+    Never gonna give you up
+    Never gonna let you down
+    Never gonna run around and desert you
+    Never gonna make you cry
+    Never gonna say goodbye
+    Never gonna tell a lie and hurt you
+```
+
+There are a bunch of details on how we format lyrics for HSMusic in particular, so [learn more about formatting lyrics](lyrics.md) if you're adding an album to the HSMusic wiki or want to see how we do things!
+
 ### `Name` field
 
 - [Name albums and tracks according to Bandcamp release](./albums-and-tracks.md#name-field)
