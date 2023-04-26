@@ -34,22 +34,27 @@ Referenced as `album:directory`; extra links: `[[album-commentary:directory]]`, 
 ### Essential info fields
 
 * `Album`: album name
+  * [Learn about naming albums and tracks for HSMusic.](../guidelines/albums-and-tracks.md#name-albums-and-tracks-according-to-bandcamp-release)
 * `Directory`: unique identifier among other albums
+  * [Learn about the Directory field, used by almost every wiki object.](../guidelines/common-fields.md#directory-field)
   * This is used for the URL the album will be accessed at: https://hsmusic.wiki/album/DIRECTORY/
   * Groups and other wiki objects reference an album by its directory: `album:DIRECTORY`.
-  * This is usually generated automatically from the album's name. [Learn more.](../guidelines/common-fields.md#directory-field)
-  * Just for albums, the directory should match the filename, e.g. *Homestuck Vol. 5* automatically gets the directory `homestuck-vol-5` and its data is saved in the file `album/homestuck-vol-5.yaml`. (The filename isn't actually processed for any data purposes, it's just easier to navigate if it matches the directory.)
+  * An album's filename should match its directory - for example, *Homestuck Vol. 5* automatically gets the directory `homestuck-vol-5` and its data is kept in the file `album/homestuck-vol-5.yaml`. (The filename isn't actually processed for any data purposes; it's just easier to locate an album's data this way.)
+* `Color`: theme color representing album
 * `Date`: album release date
 * `Cover Art Date`: date cover art created/added, if different from album release date
+* `Default Track Cover Art Date`: date track art created/added, if different from album release date
+  * On HSMusic, this is used for "anthology" art projects where the fan community creates art for each track in an album that originally released without any art. Check out [Homestuck Vol. 5](https://hsmusic.wiki/album/homestuck-vol-5/) and [Beyond Canon](https://hsmusic.wiki/album/beyond-canon/) for examples!
+  * If one or a few tracks vary from most of the album, give the track its own `Cover Art Date` field.
 * `Date Added`: date album added to wiki
-* `Color`: theme color representing album
-* `URLs`: web URLs for album playback or purchase
 
 ### Content fields
 
+* `URLs`: web URLs for album playback or purchase
 * `Commentary`: album-wide commentary from anyone involved in making it
-  * [Learn more about formatting the Commentary field.](../guidelines/common-fields.md#commentary-field)
+  * [Learn how to format the Commentary field.](../guidelines/common-fields.md#commentary-field)
 * `Additional Files`: bonus files associated with the album, e.g. album booklet, desktop wallpapers, credits files
+  * [Learn how to format the Additional Files field.](../guidelines/common-fields.md#additional-files-field)
 
 ### Configuration & layout
 
@@ -58,22 +63,25 @@ Referenced as `album:directory`; extra links: `[[album-commentary:directory]]`, 
 * `Has Track Numbers`: display track numbers in main track listing and sidebar (default: true)
 * `Listed on Homepage`: include this album in automatically generated listings on the main homepage (default: true)
 * `Listed in Galleries`: include this album in automatically generated group gallery pages (default: true)
-* `Default Track Cover Art Date`: date track art created/added, if different from album release date; provides default which may be overridden by a track's `Cover Art Date` field
-* `Cover Art File Extension`: corresponds to media file (`cover.jpg`, `cover.png`)
-* `Track Art File Extension`: corresponds to media files; provides default which may be overridden by a track's `Cover Art File Extension` field
 
 ### Relational fields
 
 * `Artists`: compositional artists who were largely responsible for the entire album, usually used for solo albums
-* `Wallpaper Artists`: visual artists who created the album's wallpaper art; setting this enables displaying custom wallpaper art for the album
-	* `Wallpaper Style`: CSS property/values to apply to the wallpaper for light tweaks of the original asset
-	* `Wallpaper File Extension`: corresponds to media file (`bg.jpg`, `bg.png`)
-* `Banner Artists`: visual artists who created the album's banner art; setting this enables displaying a banner for the album
-	* `Banner Style`: CSS property/values to apply to the banner for light tweaks of the original asset
-	* `Banner File Extension`: corresponds to media file (`banner.jpg`, `banner.png`)
-	* `Banner Dimensions`: precise dimensions of banner image file e.g. `1100x158` (used to avoid layout shift when loading album page)
 * `Cover Artists`: visual artists who created the album's cover artwork
-* `Default Track Cover Artists`: visual artists who were largely responsible for the entire album's track artworks; may be overridden by a track's `Cover Artists` field
+* `Wallpaper Artists`: visual artists who created the album's wallpaper art; setting this enables displaying custom wallpaper art for the album
+* `Banner Artists`: visual artists who created the album's banner art; setting this enables displaying a banner for the album
+* `Default Track Cover Artists`: visual artists who were largely responsible for the entire album's track artworks
+  * If one or a few tracks vary from most of the album, give those tracks each its own `Cover Artists` field.
+  * If most of the tracks in an album have the same cover artists but one or a few tracks don't have unique cover art at all, give those tracks each the field `Has Cover Art: false`.
+* `Wallpaper Style`: CSS property/values to apply to the wallpaper for light tweaks of the original asset
+* `Banner Style`: CSS property/values to apply to the banner for light tweaks of the original asset
+* `Banner Dimensions`: precise dimensions of banner image file e.g. `1100x158` (used to avoid layout shift when loading album page)
+* `Wallpaper File Extension`: corresponds to media file (`bg.jpg`, `bg.png`)
+* `Banner File Extension`: corresponds to media file (`banner.jpg`, `banner.png`)
+* `Cover Art File Extension`: corresponds to media file (`cover.jpg`, `cover.png`)
+* `Track Art File Extension`: corresponds to media files (`sburban-jungle.png`)
+  * If one or a few tracks vary from most of the album, give those tracks each its own `Cover Art File Extension` field.
+  * [Learn about file extension fields.](../common-fields.md#file-extension-fields)
 * `Groups`: links album to group documents, which generally represent bands, online communities, specific projects, etc
 * `Art Tags`: art tags representing characters or features present in the album's cover artwork
 

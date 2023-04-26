@@ -1,7 +1,5 @@
 # Common Field Guidelines
 
-These guidelines are sorted alphabetically. Some link back to other sections in the guidelines area, so this is a good place to start browsing if you're just getting started with the data format and looking for details on any commonly occurring fields.
-
 ### `Additional Files` field
 
 Additional files are extra files pertinent to a particular album or track — usually ones which come with the album download or are "companion" files, like album booklets, desktop wallpapers, included lyrics files, etc. The format for `Additional Files` is a little more involved than most other fields. Here's an example:
@@ -144,6 +142,20 @@ Some examples of when you might manually set a directory:
 * Same deal for variant Latin scripts like small-caps: "ᴀsᴘᴇᴄᴛ/ᴄʟᴏᴄᴋ" would get a totally empty directory according to the algorithm! It's specified manually as [`aspect-clock`](https://hsmusic.wiki/album/aspect-clock/).
 
 * In the most extreme cases, you may need to resort to violence. `『H☯MESTUCK VAP☯RWAVE 2016 RUH-RUH-RUH-ＲＥＭＩＸ』アンドレア・ヒューシー・グーグル翻訳` is not `h-omestuck-vap-rwave-2016-ruh-ruh-ruh` but `vaporwave-2016`, and `ＳジＢャＵンＲグＢル` is not an empty directory but `vaporwave-2016-track5`.
+
+### File extension fields
+
+HSMusic doesn't automatically detect the extension which corresponds to a media file it's going to display on the website (yet!). The *default* file extension used across the wiki is `jpg`, so if the media file being accessed is a PNG or GIF, specify it in a field like one of these:
+
+    Cover Art File Extension: png
+    Default Track Art File Extension: png
+    Banner Art File Extension: gif
+
+Note that these don't include the dot (`.`) before the extension.
+
+HSMusic only supports JPEG (in `jpg`, not `jpeg`), PNG and GIF image files for embedding right into pages. (You can still include other types of images or files and link to them in content like commentary or additional files.)
+
+There's not currently a way to specify a default image file extension across an entire wiki. ([See code issue #177.](https://github.com/hsmusic/hsmusic-wiki/issues/177))
 
 ### `Lyrics` field
 
