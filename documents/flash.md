@@ -1,12 +1,14 @@
 # Flash Format
 
+> Flashes make a handy little view for interactive or animated pieces in a larger work. Admittedly, they're definitely Homestuck-centric, so they're not super flexible for fitting into other sorts of wikis yet! Flashes feature tracks (which will automatically link to the flashes they're featured in) and can have contributor credits. They're sectioned by flash acts, which make for a dynamic (albeit currently hard-coded) sidebar and a very fancy gallery-style index.
+
 Flash documents are stored all in one file, `flashes.yaml`, one document (entry) per flash. They're grouped by flash act documents.
 
 The website section for flashes is called "Flashes & Games". Apart from this, these data objects are always called flashes.
 
 The flashes file will, in its entirety, look something like this:
 
-```yaml
+```
 Act: Act 1 - The Note Desolation Plays
 Anchor: a1
 Color: '#7799ff'

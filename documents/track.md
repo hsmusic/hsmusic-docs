@@ -1,6 +1,46 @@
 # Track Format
 
+> Tracks are by far the most populous type of content on a music wiki. While albums have the most connections to other kinds of data, tracks themselves are the most "atomic" unit. Besides basic per-track information, HSMusic's strength lies in defining tracks in relation to each other: motif-referenced tracks, audio samples, re-releases, all tie tracks from different releases together in a wiki-wide net. And tracks automatically show up on artist's credit pages and in a selection of listings, all without ever duplicating anything in the actual data files — making wiki maintenance hassle-free and fitting new music into the wiki as a whole easy and rewarding!
+
 Track documents are stored in album files; after the album header document, use `Track: (Track Name)` to start a track document.
+
+Tracks only have a few key fields, with lots of additional fields filling in further details, bonus files, and relationships with artists and other tracks. So, some tracks are as detailed as this...
+
+```
+Track: Sburban Jungle (Brief Mix)
+Artists:
+- Michael Guy Bowman
+Duration: '1:36'
+URLs:
+- https://youtu.be/DKmXadfEnog
+Cover Art File Extension: jpg
+Referenced Tracks:
+- track:sburban-jungle
+Sampled Tracks:
+- track:sburban-jungle
+Sheet Music Files:
+- Title: Sheet music by Gamehunter
+  Files:
+  - 'Sburban Jungle (Brief Mix) - Gamehunter.pdf'
+MIDI Project Files:
+- Title: MIDI by Unknown
+  Files:
+  - 'Sburban Jungle (Brief Mix) - Unknown.mid'
+Commentary: |-
+    <i>Michael Guy Bowman:</i>
+    At this point I was just giddy about the release of "Sburban Jungle", although the version that appears here is deliberately truncated. The full version later released on [[album:homestuck-vol-4|Volume 4]] was already fully written at this point, although we figured that it would be best to give only a taste and otherwise save it for later.
+```
+
+...while others only handle the essentials!
+
+```
+Track: Once Upon a Time
+Duration: '1:28'
+URLs:
+- https://tobyfox.bandcamp.com/track/once-upon-a-time-2
+- https://www.youtube.com/watch?v=3BR7-AzE2dQ
+- https://open.spotify.com/track/4XX5uZb9PvTKh8Nm2KSJfk
+```
 
 > Certain fields inherit from the album the track is part of. **Save time by using the corresponding album field, if most of the tracks in an album share the same value** (differing from wiki default):
 >
@@ -12,7 +52,7 @@ Track documents are stored in album files; after the album header document, use 
 
 ## Track objects
 
-Referenced as `track:directory`.
+Referenced as `track:directory` or by name.
 
 ### Essential info fields
 

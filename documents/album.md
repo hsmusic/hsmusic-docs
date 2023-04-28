@@ -1,10 +1,14 @@
 # Album Format
 
+> Albums form the bulk of content on a music wiki! They're the kernel of data everything else is structured around: related albums are collated in groups, albums contain tracks, albums credit artists, albums include art tags and their tracks are featured in flashes, and so on. The process of adding totally new data to a music wiki almost always starts from albums.
+> 
+> Albums contain lots of objective data about a release and its tracks, such as release date, personnel/artist credits, related groups, listening URLs, and so on. Albums also cover the presentation of a release and its tracks, with styling info such as theming color, wallpaper and banner, and miscellaneous configuration like disabling track numbers altogether. And albums can contain lots of surrounding goodies, such as sheet music, bonus files, and artist commentary!
+
 Album documents are stored each in its own file, alongside all the tracks associated with that album, at `album/<directory>.md`. Albums are represented by the first document in an album file, with all the rest being track (or track section) documents.
 
 A typical album file will, in its entirety, look something like this:
 
-```yaml
+```
 # /path/to/data...   /album/homestuck-vol-7.yaml
 Album: 'Homestuck Vol. 7: At the Price of Oblivion'
 Directory: homestuck-vol-7
@@ -29,7 +33,7 @@ Artist: Michael Guy Bowman
 
 ## Album documents
 
-Referenced as `album:directory`; extra links: `[[album-commentary:directory]]`, `[[album-gallery:directory]]`.
+Referenced as `album:directory` or by name; extra links: `[[album-commentary:directory]]`, `[[album-gallery:directory]]`.
 
 ### Essential info fields
 
@@ -87,7 +91,7 @@ Referenced as `album:directory`; extra links: `[[album-commentary:directory]]`, 
 
 ## Track section documents
 
-* `Group`: track section name
+* `Section`: track section name
 * `Color`: color-codes track sections if specified
 * `Date Originally Released`: default applied to tracks in this section
 
