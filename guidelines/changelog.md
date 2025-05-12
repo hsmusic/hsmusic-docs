@@ -78,6 +78,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
 4. other additions / additions
     * new flashes
     * new tracks - In existing albums, and **standalone** only: a track that was added to Additional Tracks because it was referenced or featured in a flash should *not* be listed here, those are already mentioned in relevant "data fixes" entries.
+    * new series - For existing groups.
     * commentary additions
     * artwork additions - ["Alternate/multiple artworks"](https://github.com/hsmusic/hsmusic-wiki/issues/70) or within commentary entries but *without* associated actual commentary.
     * background additions - For albums without backgrounds previously.
@@ -91,7 +92,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
 5. data changes
     * general overarching changes to an existing album's presentation - To align with a particular release or viewpoint on the album.
     * other presentation tweaks for albums - Adjusting banner/wallpaper styles, colorizing tracks.
-    * presentational changes for artists and groups - The ones that *do* get changelog entries, which are far and few between. Mostly new/updated descriptions.
+    * presentational changes for artists and groups - Revised descriptions, series getting shuffled around, etc.
     * truly miscellaneous presentational changes - Anything that comes across less as a *fix,* more as an "editorial" change. These often come about because we changed what a concept in the wiki "means", and adjusted existing entries in accordance. No order specified.
     * tracks newly marked as a rerelease
     * tracks moved within an album, track section changes, and tracks moved from one album to another - Changes only, not fixes.
