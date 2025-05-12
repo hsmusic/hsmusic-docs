@@ -70,16 +70,19 @@ Within each section, we try to stick to a particular order, so that changelogs a
 2. bug fixes
     * No order specified for these two; the feature/code composition of each update varies pretty immensely, so follow your gut or check with us... we're almost certainly the ones filling it out anyway...
 3. album additions
-    * First list albums that are *not* sub-sectioned under groups or artists, then list the sub-sectioned albums.
+    * First list albums that are *not* sub-sectioned (nested) under groups or artists, then list the sub-sectioned albums.
     * For albums not sub-sectioned under a group or artist: list Official -> Fandom -> Beyond, then chronologically.
-    * For albums sub-sectioned under a group, just list chronologically.
-    * The order of sub-sections (artists and groups) is basically arbitrary, but typically we'll see music teams - especially fandom groups - sorted higher up than individual artists. We also see "latest releases" generally sorted earlier than album additions that represent an artist or group's long-term existing discography.
+    * For albums sub-sectioned under a group or artist, just list chronologically.
+    * The order of sub-sections, if present, is basically arbitrary, but typically we'll see music teams - especially fandom groups - sorted higher up than individual artists. We also see "latest releases" generally sorted earlier than album additions that represent an artist or group's long-term existing discography.
     * Album additions can be reorganized and restructured as suitable for a given update, including collapsing credits into an "album addition credits" item, for example. When in doubt, try comparing to a recent similarly-sized update. Reviewing the album addition list happens close to an update's release, when the scope of an update is fully clear, so there isn't a lot of pressure to place individual album entries in "the best spot" PR by PR.
 4. other additions / additions
     * new flashes
     * new tracks - In existing albums, and **standalone** only: a track that was added to Additional Tracks because it was referenced or featured in a flash should *not* be listed here, those are already mentioned in relevant "data fixes" entries.
     * commentary additions
     * artwork additions - ["Alternate/multiple artworks"](https://github.com/hsmusic/hsmusic-wiki/issues/70) or within commentary entries but *without* associated actual commentary.
+    * background additions - For albums without backgrounds previously.
+    * art tag additions
+    * additional name additions
     * "additional file" additions - Including midi/project files and sheet music.
     * artwork and layout-media additions - New banners, new backgrounds/wallpapers.
     * lyric additions - For tracks that didn't already have lyrics, or new independent [lyrics entries](https://github.com/hsmusic/hsmusic-wiki/issues/397).
@@ -87,18 +90,20 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * commentary citation additions - For entries that didn't already have citations.
 5. data changes
     * general overarching changes to an existing album's presentation - To align with a particular release or viewpoint on the album.
-    * custom/unique track section changes within an album - Nothing to mention if it's just "there is now a bonus tracks section".
     * other presentation tweaks for albums - Adjusting banner/wallpaper styles, colorizing tracks.
-    * tracks newly marked as a rerelease
     * presentational changes for artists and groups - The ones that *do* get changelog entries, which are far and few between. Mostly new/updated descriptions.
     * truly miscellaneous presentational changes - Anything that comes across less as a *fix,* more as an "editorial" change. These often come about because we changed what a concept in the wiki "means", and adjusted existing entries in accordance. No order specified.
+    * tracks newly marked as a rerelease
+    * tracks moved within an album, track section changes, and tracks moved from one album to another - Changes only, not fixes.
     * most general removals - Usually because something that previously existed as its own thing (e.g. a track) is now folded into a newer feature (e.g. additional names), but also editorial changes, like newly considering two very-similar things as one and the same. Takedowns (that are not private/unlisted for any reason), usually of particular media files, also go here.
 6. data fixes
     * reference fixes for tracks
     * featuring fixes for flashes
     * crediting fixes for tracks, albums, flashes, etc
-    * merged artists - Show only the merged/kept name.
+    * merged artists - Alphabetical, and show only the merged/kept name.
+    * track section fixes - Like newly marking an existing track as a bonus track.
     * name fixes - Not for artists.
+    * general data fixes - Stuff that's not covered anywhere else (above or below), like erroneous track durations or flash dates.
     * art tag fixes - Generally for existing tags that were missing from existing artworks' tag lists; list content warning additions too.
     * lyric fixes - For existing lyrics.
     * additional file fixes - Obvious errors; more "editorial" changes usually belong in "data changes" instead.
