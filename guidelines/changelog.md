@@ -77,7 +77,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * Album additions can be reorganized and restructured as suitable for a given update, including collapsing credits into an "album addition credits" item, for example. When in doubt, try comparing to a recent similarly-sized update. Reviewing the album addition list happens close to an update's release, when the scope of an update is fully clear, so there isn't a lot of pressure to place individual album entries in "the best spot" PR by PR.
 4. other additions / additions
     * new flashes
-    * new tracks - In existing albums, and **standalone** only: a track that was added to Additional Tracks because it was referenced or featured in a flash should *not* be listed here, those are already mentioned in relevant "data fixes" entries.
+    * new tracks - In existing albums **outside** Additional Tracks: for example, a track that was added to [More Homestuck Fandom](https://hsmusic.wiki/album/more-homestuck-fandom/) because it was referenced by some other track or featured in a flash should *not* be listed here.
     * new series - For existing groups.
     * commentary additions
     * artwork additions - ["Alternate/multiple artworks"](https://github.com/hsmusic/hsmusic-wiki/issues/70) or within commentary entries but *without* associated actual commentary.
@@ -110,7 +110,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * additional file fixes - Obvious errors; more "editorial" changes usually belong in "data changes" instead.
     * commentary fixes - Typos, mostly. Don't mention changes to do with how an artist is referred to (names, pronouns).
     * listening link fixes
-    * duplicate track removals (etc) - Obvious errors only, like a track being represented in both More Homestuck Fandom and an actual album, or a track in References Beyond Homestuck not actually being referenced anywhere.
+    * duplicate track removals (etc) - Obvious errors only, like a track being represented in both [More Homestuck Fandom](https://hsmusic.wiki/album/more-homestuck-fandom/) and an actual album, or a track in [References Beyond Homestuck](https://hsmusic.wiki/album/references-beyond-homestuck/) not actually being referenced anywhere.
 7. directory changes
     * album directory changes
     * track directory changes
