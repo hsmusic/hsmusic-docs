@@ -100,6 +100,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * most general removals - Usually because something that previously existed as its own thing (e.g. a track) is now folded into a newer feature (e.g. additional names), but also editorial changes, like newly considering two very-similar things as one and the same. Takedowns (that are not private/unlisted for any reason), usually of particular media files, also go here.
 6. data fixes
     * reference fixes for tracks
+    * reference fixes for artworks
     * featuring fixes for flashes
     * crediting fixes for tracks, albums, flashes, etc
     * merged artists - Alphabetical, and show only the merged/kept name.
