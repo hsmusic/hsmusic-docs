@@ -76,10 +76,10 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * The order of sub-sections, if present, is basically arbitrary, but typically we'll see music teams - especially fandom groups - sorted higher up than individual artists. We also see "latest releases" generally sorted earlier than album additions that represent an artist or group's long-term existing discography.
     * Album additions can be reorganized and restructured as suitable for a given update, including collapsing credits into an "album addition credits" item, for example. When in doubt, try comparing to a recent similarly-sized update. Reviewing the album addition list happens close to an update's release, when the scope of an update is fully clear, so there isn't a lot of pressure to place individual album entries in "the best spot" PR by PR.
 4. other additions / additions
-    * new flashes
-    * new tracks - In existing albums **outside** Additional Tracks: for example, a track that was added to [More Homestuck Fandom](https://hsmusic.wiki/album/more-homestuck-fandom/) because it was referenced by some other track or featured in a flash should *not* be listed here.
-    * new groups - To group existing albums. It's fine to skip lines here if the group is already mentioned and linked in the "album additions" section.
-    * new series - For existing groups.
+    * flash additions
+    * track additions - In existing albums **outside** Additional Tracks: for example, a track that was added to [More Homestuck Fandom](https://hsmusic.wiki/album/more-homestuck-fandom/) because it was referenced by some other track or featured in a flash should *not* be listed here.
+    * group additions - To group existing albums. It's fine to skip lines here if the group is already mentioned and linked in the "album additions" section.
+    * series additions - For existing groups.
     * commentary additions
     * artwork additions - ["Alternate/multiple artworks"](https://github.com/hsmusic/hsmusic-wiki/issues/70) or within commentary entries but *without* associated actual commentary.
     * background additions - For albums without backgrounds previously.
