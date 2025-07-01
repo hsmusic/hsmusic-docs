@@ -93,8 +93,9 @@ Within each section, we try to stick to a particular order, so that changelogs a
 5. data changes
     * general overarching changes to an existing album's presentation - To align with a particular release or viewpoint on the album.
     * albums moved between groups - Existing groups only.
-    * other presentation tweaks for albums - Adjusting banner/wallpaper styles, colorizing tracks.
-    * presentational changes for artists and groups - Revised descriptions, series getting shuffled around, etc.
+    * album presentation tweaks - Smaller stuff, like adjusting banner/wallpaper styles, colorizing tracks.
+    * artist and group presentational changes - Revised descriptions, series getting shuffled around, etc.
+    * art tag structural or organizational changes
     * truly miscellaneous presentational changes - Anything that comes across less as a *fix,* more as an "editorial" change. These often come about because we changed what a concept in the wiki "means", and adjusted existing entries in accordance. No order specified.
     * tracks newly marked as a rerelease
     * tracks moved within an album, track section changes, and tracks moved from one album to another - Changes only, not fixes.
