@@ -76,6 +76,7 @@ The *current* canonical reference is in the source code: [`src/data/things/album
   - `Suffix Track Directories`
   - `Always Reference By Directory`
   - `Always Reference Tracks By Directory`
+  - `Style`
   - `Bandcamp Album ID`
   - `Bandcamp Artwork ID`
   - `Additional Names`
