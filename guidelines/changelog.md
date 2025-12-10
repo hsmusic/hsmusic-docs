@@ -99,6 +99,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * art tag structural or organizational changes
     * truly miscellaneous data changes - Just not stuff that would be considered fixes! More "editorial" changes, regarding more numeric, classification, or relationshipy types of data. Spooky scary.
     * truly miscellaneous presentational changes - Anything that comes across less as a *fix,* more as an "editorial" change. These often come about because we changed what a concept in the wiki "means", and adjusted existing entries in accordance. No order specified.
+    * new previous productions
     * tracks newly marked as a rerelease
     * tracks moved within an album, track section changes, and tracks moved from one album to another - Changes only, not fixes.
     * most general removals - Usually because something that previously existed as its own thing (e.g. a track) is now folded into a newer feature (e.g. additional names), but also editorial changes, like newly considering two very-similar things as one and the same. Takedowns (that are not private/unlisted for any reason), usually of particular media files, also go here.
