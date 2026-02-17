@@ -78,7 +78,7 @@ Within each section, we try to stick to a particular order, so that changelogs a
 4. other additions / additions
     * flash additions
     * track additions - In existing albums **outside** Additional Tracks: for example, a track that was added to [More Homestuck Fandom](https://hsmusic.wiki/album/more-homestuck-fandom/) because it was referenced by some other track or featured in a flash should *not* be listed here.
-    * group additions - To group existing albums. It's fine to skip lines here if the group is already mentioned and linked in the "album additions" section.
+    * group additions - *All* new groups. Sort matching the overall list of groups, so solo musicians before fandom projects, etc.
     * series additions - For existing groups.
     * commentary additions
     * artwork additions - ["Alternate/multiple artworks"](https://github.com/hsmusic/hsmusic-wiki/issues/70) or within commentary entries but *without* associated actual commentary.
