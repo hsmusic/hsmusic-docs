@@ -89,6 +89,8 @@ Within each section, we try to stick to a particular order, so that changelogs a
     * artwork and layout-media additions - New banners, new backgrounds/wallpapers.
     * lyric additions - For tracks that didn't already have lyrics, or new independent [lyrics entries](https://github.com/hsmusic/hsmusic-wiki/issues/397).
     * listening link additions - Including for platforms an album didn't already have links for. Don't include *fixed* listening links here.
+    * crediting source additions
+    * referencing source additions
     * commentary citation additions - For entries that didn't already have citations.
 5. data changes
     * general overarching changes to an existing album's presentation - To align with a particular release or viewpoint on the album.
