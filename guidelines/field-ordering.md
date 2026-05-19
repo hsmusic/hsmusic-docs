@@ -27,11 +27,15 @@ The *current* canonical reference is in the source code: [`src/data/things/track
 
 - **General configuration:**
   - `Count In Artist Totals`
+  - `Show In Reference Lists`
   - `Has Cover Art`
+  - `Has Date`
 
 - **General metadata:**
   - `Duration`
   - `Color`
+  - `Needs Lyrics`
+  - `Excluding URLs`
   - `URLs`
 
 - **Artworks:**
@@ -48,6 +52,9 @@ The *current* canonical reference is in the source code: [`src/data/things/track
 - **Referenced tracks:**
   - `Referenced Tracks`
   - `Sampled Tracks`
+
+- **Music videos:**
+  - `Music Videos`
 
 - **Additional files:**
   - `Additional Files`
@@ -75,7 +82,7 @@ The *current* canonical reference is in the source code: [`src/data/things/album
   - `Directory Suffix`
   - `Suffix Track Directories`
   - `Always Reference By Directory`
-  - `Always Reference Tracks By Directory`
+  - `Reference Tracks By Directory` / `Always Reference Tracks By Directory`
   - `Style`
   - `Bandcamp Album ID`
   - `Bandcamp Artwork ID`
@@ -85,12 +92,19 @@ The *current* canonical reference is in the source code: [`src/data/things/album
 
 - **Credits and contributors:**
   - `Artists`
+  - `Track Artist Text`
+  - `Track Artists`
 
 - **General configuration:**
   - `Count Tracks In Artist Totals`
-  - `Has Track Numbers`
+  - `Excluding Track URLs`
   - `Listed on Homepage`
   - `Listed in Galleries`
+  - `Has Track Numbers`
+  - `Show Album In Tracks Without Artists`
+  - `Show Section In Nav Bar`
+  - `Show Artists In Track List`
+  - `Hide Duration`
 
 - **General metadata:**
   - `Color`
