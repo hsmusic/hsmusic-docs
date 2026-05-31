@@ -16,11 +16,10 @@ The music wiki does not support APNG files, mostly because the thumbnail generat
 
 ### Current targets
 
-"Soft" maximum in file size: ±2.8 MB (2,800,000ish bytes)
-"Hard" maximum in file size: ±3.0 MB (3,000,000ish bytes)
-"Soft" minimum in file size: ±1.0 MB (1,000,000ish bytes)
-
-Maximum in image dimensions: 500x500
+- "Soft" maximum in file size: ±2.8 MB (2,800,000ish bytes)
+- "Hard" maximum in file size: ±3.0 MB (3,000,000ish bytes)
+- "Soft" minimum in file size: ±1.0 MB (1,000,000ish bytes)
+- Maximum in image dimensions: 500x500
 
 GitHub cannot host files greater than 100 MB. (Consequently, neither can the wiki.) This has bearing on including the original file under "additional files" (see section later in this document).
 
@@ -78,7 +77,7 @@ Track Artwork:
   ...
   Source: album download
   File Notes: >-
-    Downscaled - see additional files for original .gif
+    Downscaled - see additional files for original GIF file
 
 Additional Files:
 - Title: Alternate artwork (original file)
