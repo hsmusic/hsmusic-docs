@@ -35,6 +35,7 @@ GitHub cannot host files greater than 100 MB. (Consequently, neither can the wik
 * (Ezgif) -> Optimize -> GIF optimizer
 * Set "Optimization method" to "Remove every 2nd frame", which is under the "Drop frames" section of the dropdown
 * Keep "Adjust speed to match the original" checked (this checkbox appears once you've picked "Remove every 2nd frame")
+* If smooth motion feels essential to the artwork's effect, you can skip this step, but you may have to set the optimization settings much stronger at the end - consider comparing similar file-size renders with and without dropped frames
 
 **Scale the artwork down.** Refer to "current targets" above. This is a good early step because, like dropping frames, it discards actual pixels / color values. GIFs are optimized in terms of unique colors so the fewer pixels, the easier to optimize.
 
@@ -50,48 +51,41 @@ GitHub cannot host files greater than 100 MB. (Consequently, neither can the wik
 
 ## Refer to original artworks
 
-First ensure the animated artwork is visibly labeled "downscaled".
+Ensure the animated artwork is visibly labeled "downscaled". Include a "via" field (`Source`) to indicate where the original is accessible. And include an entry in `Additional Files`.
+
+If the file is greater than 100 MB then GitHub will refuse to accept your file and you must remove it from your commit (consequently, we can't exchange/sync the file, so can't include it on the wiki). In this case write an entry like below:
 
 ```
 Track Artwork:
-- Label: Alternate artwork (downscaled)
+- Label: Alternate artwork
   Directory: alternate
-```
-
-Include a "via" field (`Source`) to indicate where the original is accessible.
-
-```
-Track Artwork:
-- Label: Alternate artwork (downscaled)
-  Directory: alternate
-  …
+  ...
   Source: album download
-```
+  File Notes: Downscaled from original
 
-Include an entry in `Additional Files`. If the file is greater than 100 MB then GitHub will refuse to accept your file and you must remove it from your commit (consequently, we can't exchange/sync the file, so can't include it on the wiki). In this case write an entry like below:
-
-```
 Additional Files:
 - Title: Alternate artwork (original file)
   Description: >-
     This file is too large to currently include on the music wiki! It's included in the album download, though.
 ```
 
-Otherwise, include the original artwork in `album-additional` (with track number removed but otherwise keeping original filename). Refer to it in an `Origin Details` field on the artwork, as well.
+Otherwise, include the original artwork in `album-additional` (with track number removed but otherwise keeping original filename). Refer to it in an `File Notes` field on the artwork, as well.
 
 ```
 Track Artwork:
-- Label: Alternate artwork (downscaled)
+- Label: Alternate artwork
   Directory: alternate
-  …
+  ...
   Source: album download
-  Origin Details: >-
-    See "additional files" for original .gif
+  File Notes: >-
+    Downscaled - see additional files for original .gif
 
 Additional Files:
 - Title: Alternate artwork (original file)
   Description: Included in the album download.
   Files: [Naught (Alt).gif]
 ```
+
+Note the difference in phrasing the file notes. Also note the artwork is marked as downscaled in its file notes, rather than in its label. The label is an intrinsic description of the artwork itself - not a description of the specific literal file present on the wiki.
 
 Skip the `Artists` field in the "additional files" entry, because the artists are already credited on the relevant track artwork.
